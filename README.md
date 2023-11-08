@@ -6,7 +6,7 @@
 
 ##Índice
 
--[api](#api)
+*[api](#api)
 
 *[config](#config)
 
