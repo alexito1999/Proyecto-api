@@ -1,4 +1,7 @@
-<h1 align="center"> los dockers listos para ser levantados </h1>
+<h1 align="center">fUNCIONAMIENTO</h1>
+<P fontsize="bold">fUNCIONAMIENTO</p>
+
+<UL>fUNCIONAMIENTO</UL>
 <h2 align="left">Contenido carpeta Src</h2>
 
 ## Tabla de Contenido de la SRC
@@ -6,7 +9,6 @@
 - [Configuración](#config)
 - [Middleware](#/middleware)
 - [Modelos](#models)
-
 ### API
 - [estudiantes](src/api/estudiantes/index.php)
 - [asignaturas](src/api/asignaturas/index.php)
@@ -21,16 +23,15 @@
 - [profesores](src/api/profesores/index.php)
 ### Middleware
 - [middleware](src/middleware/config.php)
-
 ### Middleware
 - [Configuracion](src/config/config.php)
-
 ### Modelos
 - [estudiantes](src/api/estudiantes/estudiantes.php)
 - [asignaturas](src/api/asignaturas/asignaturas.php)
 - [calificaciones](src/api/calificaciones/calificaciones.php)
 - [inscripciones](src/api/inscripciones/inscripciones.php)
 - [profesores](src/api/profesores/profesores.php)
+  
 
-<h2 align="left">Explicacion</h2>
-
+<h2 align="left">Explicacion estudiantes/profesor</h2>
+E
