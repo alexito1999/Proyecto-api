@@ -1,5 +1,5 @@
 <h1 align="center">FUNCIONAMIENTO</h1>
-**fUNCIONAMIENTO**
+**FUNCIONAMIENTO**
 
 <UL>fUNCIONAMIENTO</UL>
 <h2 align="left">Contenido carpeta Src</h2>
