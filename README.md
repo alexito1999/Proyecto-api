@@ -1,5 +1,5 @@
 <h1 align="center"> los dockers listos para ser levantados </h1>
-<h1 align="center"> carpeta Src</h1>
+<h2 align="left">Contenido carpeta Src</h2>
 
 ## Tabla de Contenido de la SRC
 - [API](#api)
@@ -31,3 +31,6 @@
 - [calificaciones](src/api/calificaciones/calificaciones.php)
 - [inscripciones](src/api/inscripciones/inscripciones.php)
 - [profesores](src/api/profesores/profesores.php)
+
+<h2 align="left">Explicacion</h2>
+
