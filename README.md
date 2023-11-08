@@ -1,5 +1,5 @@
 <h1 align="center">fUNCIONAMIENTO</h1>
-<P fontsize="bold">fUNCIONAMIENTO</p>
+<P font-weight="bold">fUNCIONAMIENTO</p>
 
 <UL>fUNCIONAMIENTO</UL>
 <h2 align="left">Contenido carpeta Src</h2>
