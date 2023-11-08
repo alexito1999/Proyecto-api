@@ -1,7 +1,9 @@
 <h1 align="center">FUNCIONAMIENTO</h1>
 _FUNCIONAMIENTO_
 <sub> FUNCIONAMIENTO</sub>
-<UL>fUNCIONAMIENTO</UL>
+-Midleware: Se guarda la conexion a base de datos con la api y se creamos la funcion para ejecutar las consultas sql
+-Config: Se guarda lasa variables para conectar con la base de datos como por ejempo usuario y contraseña.
+
 <h2 align="left">Contenido carpeta Src</h2>
 
 ## Tabla de Contenido de la SRC
