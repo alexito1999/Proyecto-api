@@ -5,10 +5,10 @@
 <h1 align="center"> carpeta Src</h1>
 
 ## Tabla de Contenido
-- [API](#api)
-- [Configuración](#config)
-- [Middleware](#middleware)
-- [Modelos](#models)
+- [API](src/api)
+- [Configuración](src/config)
+- [Middleware](src/middleware)
+- [Modelos](src/models)
 
 ### API
 - [estudiantes](src/api/estudiantes/index.md)
