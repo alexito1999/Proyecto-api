@@ -11,11 +11,11 @@
 - [Modelos](#models)
 
 ### API
-- [estudiantes](api/estudiantes/index.md)
-- [asignaturas](api/asignaturas/index.md)
-- [calificaciones](api/calificaciones/index.md)
-- [inscripciones](api/inscripciones/index.md)
-- [profesores](api/profesores/index.md)
+- [estudiantes](src/api/estudiantes/index.md)
+- [asignaturas](src/api/asignaturas/index.md)
+- [calificaciones](src/api/calificaciones/index.md)
+- [inscripciones](src/api/inscripciones/index.md)
+- [profesores](src/api/profesores/index.md)
 
 ### Configuración
 - [Archivo 1](config/archivo1.md)
