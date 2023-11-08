@@ -5,17 +5,17 @@
 <h1 align="center"> carpeta Src</h1>
 
 ## Tabla de Contenido
-- [API](src/api)
-- [Configuración](src/config)
-- [Middleware](src/middleware)
-- [Modelos](src/models)
+- [API](#api)
+- [Configuración](#config)
+- [Middleware](#/middleware)
+- [Modelos](#models)
 
 ### API
-- [estudiantes](src/api/estudiantes/index.md)
-- [asignaturas](src/api/asignaturas/index.md)
-- [calificaciones](src/api/calificaciones/index.md)
-- [inscripciones](src/api/inscripciones/index.md)
-- [profesores](src/api/profesores/index.md)
+- [estudiantes](src/api/estudiantes/index.php)
+- [asignaturas](src/api/asignaturas/index.php)
+- [calificaciones](src/api/calificaciones/index.php)
+- [inscripciones](src/api/inscripciones/index.php)
+- [profesores](src/api/profesores/index.php)
 
 ### Configuración
 - [Archivo 1](config/archivo1.md)
