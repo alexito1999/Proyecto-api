@@ -2,6 +2,7 @@
 
 <h3>Tenemos cuatro carpetas principales:</h3>
 
+
 **Midleware**: Se guarda la conexion a base de datos con la api y se creamos la funcion para ejecutar las consultas sql.
 
 **Config**: Se guarda lasa variables para conectar con la base de datos como por ejempo usuario y contraseña.
@@ -10,6 +11,7 @@
 GET, POST, DELETE Y PUT.
 
 **Modelos**: Tengo las funciones que realizan las consultas sql.
+
 
 <h3>Explicacion sustancial de las carpetas mas importantes</h3>
 Explicare la informacion 
