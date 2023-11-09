@@ -1,17 +1,15 @@
 <h1 align="center">FUNCIONAMIENTO</h1>
 
-**Tenemos cuatro carpetas principales.**
+**Tenemos cuatro carpetas principales:**
 
-Midleware: Se guarda la conexion a base de datos con la api y se creamos la funcion para ejecutar las consultas sql.
+**Midleware**: Se guarda la conexion a base de datos con la api y se creamos la funcion para ejecutar las consultas sql.
 
-Config: Se guarda lasa variables para conectar con la base de datos como por ejempo usuario y contraseña.
+**Config**: Se guarda lasa variables para conectar con la base de datos como por ejempo usuario y contraseña.
 
-API: Donde albergo las carpetas de cada uno de los catores que componen mi api como son:
-estudiantes]
-+asignaturas
-+calificaciones
-+inscripciones
-+profesores
+**API**: Donde albergo las carpetas de cada uno de los componentes de mi api desde los cuales tengo en index principal que servira para hacer las llamadas a mis funciones como son:
+GET, POST, DELETE Y PUT.
+
+**Modelos**: Tengo las funciones que realizan las consultas sql.
 
 <h2 align="left">Contenido carpeta Src</h2>
 
