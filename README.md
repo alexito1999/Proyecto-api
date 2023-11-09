@@ -1,5 +1,9 @@
 <h1 align="center">Contenido</h1>
 
+**carpeta src**: Donde guardo la Api-Restful
+**Docker-compose**: Usado para configurar las conexiones con php y msql para ser dockerizado 
+**Dockerfile**: Usado para configurar el php.
+
 ## Tabla de Contenido de la SRC
 - [API](#api)
 - [Configuración](#config)
