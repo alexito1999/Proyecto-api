@@ -25,8 +25,6 @@
 - [profesores](src/api/profesores/index.php)
 ### Middleware
 - [middleware](src/middleware/config.php)
-### Middleware
-- [Configuracion](src/config/config.php)
 ### Modelos
 - [estudiantes](src/api/estudiantes/estudiantes.php)
 - [asignaturas](src/api/asignaturas/asignaturas.php)
