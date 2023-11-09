@@ -1,5 +1,6 @@
 <h1 align="center">FUNCIONAMIENTO</h1>
-Tenemos cuatro carpetas principales.
+
+**Tenemos cuatro carpetas principales.**
 
 Midleware: Se guarda la conexion a base de datos con la api y se creamos la funcion para ejecutar las consultas sql.
 
