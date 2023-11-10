@@ -58,8 +58,9 @@ Vamos a poner como ejemplo el index de profesor porque los demas se  replicaron 
   Usando este metodo: $method = $_SERVER["REQUEST_METHOD"]; puedo crear un switch poniendo como posibles soluciones las 4 funciones que usaremos GET, POST, DELETE Y PUT.
 
   <h3>Explicacion de las peticiones:</h3>
-- [GET]: Tenemos la funcion para mostrar los profesores que hay.
-- [GET]:
+- [GET]: Instanciamos la funcion para mostrar los profesores que hay.
+- [GET]: Instanciamos la funcion para mostrar los profesores que hay atraves del id usando el metodo "$_GET" para introducir el id atraves de la URL.
+- Ademas de esa funcion se encuentra otra que es la de insertar profesores para ello usamos el metodo "$_POST" para recoger los datos atraves de  
 
   
 
