@@ -52,8 +52,11 @@ GET, POST, DELETE Y PUT.
 **API**: Aqui se encuentra el "index.php" que se usara para hacer las llamadas y probar nuestros metodos POST, GET ... 
 Vamos a poner como ejemplo el index de profesor porque los demas se  replicaron con el mismo modelo.
 - [profesores](src/api/profesores/index.php)
+  
   El index cuenta con la ruta relativa de donde estan la funciones para ello instancio un objeto de esa clase para poder usar sus funciones.
+  
   Usando este metodo: $method = $_SERVER["REQUEST_METHOD"]; puedo crear un switch poniendo como soluciones las 4 funciones que necesitaremos que son GET, POST, DELETE Y PUT.
+  
   En cada una de estas opciones colocamos la funcion que necesitemos.
   
 
