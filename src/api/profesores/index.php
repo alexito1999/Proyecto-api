@@ -1,12 +1,13 @@
 <?php
-
+//La ruta del archivo donde albergo las rfunciones
 require(__DIR__ . "/../../models/profesores/profesores.php");
-
+//Instancio el objeto de base de datos para poder ejecutar los metodos
 $db = new Db();
+//Instancio el objeto de profesores para usar las funciones
 $objProfesores = new Profesores($db);
-
+//Con esta variable puedo hacer que los metodos que seleccione en el postman coincidadn con el swirtch
 $method = $_SERVER["REQUEST_METHOD"];
-
+//Condicional para elegir el metodo a usar
 switch ($method) {
     case 'GET':
         echo "GET: \n";
@@ -45,18 +46,19 @@ switch ($method) {
 
     case 'PUT':
         echo "PUT: \n";
-        $profesorId = $_GET['id'];
+        $profesorId = $_GET['id'];  //Obtengo el id del profesor
+        $json = file_get_contents('php://input');   //Recupero la peticion del json que uso en el postman con los datos
+        $data = json_decode($json, true);   //Convierto el json en un array y lo guardo en una variable
+        /* Manejo de datos  */
+        //metemos en un array mas grande los datos del json para poder llevarlo a la funcion
         $datosActualizados = [
-            'nombre' => 'Nuevo Nombre',
-            'apellido' => 'Nuevo Apellido',
-            'fecha_nacimiento' => 'Nueva Fecha',
-            'telefono' => 'Nuevo Teléfono'
+            'nombre' => $data['nombre'],
+            'apellido' => $data['apellido'],
+            'especialidad' => $data['especialidad'],
+            'correo_electronico' => $data['correo_electronico']
         ];
-    
         // Llama a la función para actualizar la información del estudiante
-        $resultado = $objProfesores->actualizarProfesor($estudianteId, $datosActualizados);
-
-        
+        $objProfesores->actualizarProfesor($estudianteId, $datosActualizados);
         break;
     default:
         echo "No lo tenemos contemplado";
