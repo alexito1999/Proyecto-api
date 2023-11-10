@@ -59,10 +59,9 @@ Vamos a poner como ejemplo el index de profesor porque los demas se  replicaron 
 
   <h3>Explicacion de las peticiones:</h3>
 - [GET]: Instanciamos la funcion para mostrar los profesores que hay.
-- [GET]: Instanciamos la funcion para mostrar los profesores que hay atraves del id usando el metodo "$_GET" para introducir el id atraves de la URL.
-- Ademas de esa funcion se encuentra otra que es la de insertar profesores para ello usamos el metodo "$_POST" para recoger los datos atraves de  
+- [POST]: Instanciamos la funcion para mostrar los profesores que hay atraves del id usando el metodo "$_GET" para introducir el id atraves de la URL.
+- Ademas de esa funcion se encuentra otra que es la de insertar profesores para ello usamos el metodo "$_POST" para recoger de cada campo luego en el postman nos vamos a la pestaña de body y seleccionamos la opcion de form data y colocamos los campos que hemos nombrado anteriormente y agregamos el dato que queeremos y le damos a enviar.
+- [DELETE]: Instanciamos la funcion para eliminar profesores, porque el delete sirve para eso.
+- [PUT]: Instanciamos la funcion para actualizar profesores, porque sirve para las modificaciones. Por ello uso el metodo "$_GET" para pedir el id del profesora a actualizar.
+- Los datos son enviados atraves del postman por un un json, para que nuestro programa coja esos datos con la funcion "file_get_contents('php://input')" y con el json decode los
 
-  
-
-<h2 align="left">Explicacion estudiantes/profesor</h2>
-E
