@@ -64,29 +64,3 @@ switch ($method) {
 }
 
 ?>
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Insertar Profesor</title>
-</head>
-
-<body>
-    <h1>Insertar un Nuevo Profesor</h1>
-    <form action="index.php" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" required><br>
-
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido" required><br>
-
-        <label for="especialidad">especialidad:</label>
-        <input type="text" name="especialidad" id="especialidad" required><br>
-
-        <label for="correoElectronico">correoElectronico:</label>
-        <input type="text" name="correoElectronico" id="correoElectronico" required><br>
-        <input type="submit" value="Insertar Profesor">
-    </form>
-</body>
-
-</html>
